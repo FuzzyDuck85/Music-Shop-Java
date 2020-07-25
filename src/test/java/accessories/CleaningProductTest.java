@@ -18,4 +18,29 @@ public class CleaningProductTest {
     public void hasProductName(){
         assertEquals("Metal Polish", brasso.getProductName());
     }
+
+    @Test
+    public void hasManufacturer(){
+        assertEquals("Brasso", brasso.getManufacturer());
+    }
+
+    @Test
+    public void hasRetailerPrice(){
+        assertEquals(4, brasso.getRetailerPrice(), 0.01);
+    }
+
+    @Test
+    public void hasCustomerPrice(){
+        assertEquals(4.35, brasso.getCustomerPrice(), 0.01);
+    }
+
+    @Test
+    public void sellingMakesProfit(){
+        assertEquals(0.35, brasso.calculateMarkup(), 0.01);
+    }
+
+    @Test
+    public void hasWeight(){
+        assertEquals(75, brasso.getVolume());
+    }
 }

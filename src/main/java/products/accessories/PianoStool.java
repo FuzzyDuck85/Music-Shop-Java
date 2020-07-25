@@ -4,20 +4,26 @@ import products.instruments.InstrumentTypes;
 
 public class PianoStool extends Accessory {
 
-    private int size;
+    private boolean adjustable;
     private int noOfLegs;
+    private boolean hasStorage;
 
-    public PianoStool(String productName, String manufacturer, double retailerPrice, double customerPrice, int size, int noOfLegs) {
+    public PianoStool(String productName, String manufacturer, double retailerPrice, double customerPrice, boolean adjustable, int noOfLegs, boolean hasStorage) {
         super(productName, manufacturer, retailerPrice, customerPrice, AccessoryTypes.FURNITURE, InstrumentTypes.KEYBOARD);
-        this.size = size;
+        this.adjustable = adjustable;
         this.noOfLegs = noOfLegs;
+        this.hasStorage = hasStorage;
     }
 
-    public int getSize() {
-        return size;
+    public boolean isAdjustable() {
+        return adjustable;
     }
 
     public int getNoOfLegs() {
         return noOfLegs;
+    }
+
+    public boolean isHasStorage() {
+        return hasStorage;
     }
 }
