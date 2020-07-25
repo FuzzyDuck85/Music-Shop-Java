@@ -58,5 +58,9 @@ public class KeyboardTypeTest {
         assertEquals(88, keyboardType.getNumberOfKeys());
     }
 
+    @Test
+    public void canPlayANoise(){
+        assertEquals("I make a plink, plonk sound when you strike my keys", keyboardType.play());
+    }
 
 }

@@ -9,7 +9,7 @@ public class BrassType extends Instrument{
         this.numberOfValves = numberOfValves;
     }
 
-    public int getNumberOfKeys() {
+    public int getNumberOfValves() {
         return numberOfValves;
     }
 
