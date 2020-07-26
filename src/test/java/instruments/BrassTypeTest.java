@@ -3,6 +3,7 @@ package instruments;
 import org.junit.Before;
 import org.junit.Test;
 import products.instruments.BrassType;
+import products.instruments.InstrumentTypes;
 
 
 import static org.junit.Assert.assertEquals;
@@ -13,7 +14,7 @@ public class BrassTypeTest {
 
     @Before
     public void before(){
-        brassType = new BrassType("Trombone", "Startone", 100, 115, "brass", "gold", 0);
+        brassType = new BrassType("Trombone", "Startone", 100, 115, "brass", "gold", InstrumentTypes.BRASS, 0);
     }
 
     @Test
@@ -50,6 +51,11 @@ public class BrassTypeTest {
     @Test
     public void canHaveAColour(){
         assertEquals("gold", brassType.getColour());
+    }
+
+    @Test
+    public void hasInstrumentType(){
+        assertEquals(InstrumentTypes.BRASS, brassType.getType());
     }
 
     @Test

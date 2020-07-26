@@ -4,7 +4,7 @@ public class BrassType extends Instrument{
 
     private int numberOfValves;
 
-    public BrassType(String productName, String manufacturer, double retailerPrice, double customerPrice, String material, String colour, int numberOfValves) {
+    public BrassType(String productName, String manufacturer, double retailerPrice, double customerPrice, String material, String colour, InstrumentTypes instrumentTypes, int numberOfValves) {
         super(productName, manufacturer, retailerPrice, customerPrice, material, colour, InstrumentTypes.BRASS);
         this.numberOfValves = numberOfValves;
     }

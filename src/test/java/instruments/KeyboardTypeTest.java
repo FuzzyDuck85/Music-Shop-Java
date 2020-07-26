@@ -14,7 +14,7 @@ public class KeyboardTypeTest {
 
     @Before
     public void before(){
-        keyboardType = new KeyboardType("Electronic Keyboard", "Yamaha", 200, 250, "plastic", "black", 88);
+        keyboardType = new KeyboardType("Electronic Keyboard", "Yamaha", 200, 250, "plastic", "black", InstrumentTypes.KEYBOARD, 88);
     }
 
     @Test
@@ -51,6 +51,11 @@ public class KeyboardTypeTest {
     @Test
     public void canHaveAColour(){
      assertEquals("black", keyboardType.getColour());
+    }
+
+    @Test
+    public void hasInstrumentType(){
+        assertEquals(InstrumentTypes.KEYBOARD, keyboardType.getType());
     }
 
     @Test

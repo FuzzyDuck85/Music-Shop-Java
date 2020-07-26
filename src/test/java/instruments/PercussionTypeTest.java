@@ -2,7 +2,7 @@ package instruments;
 
 import org.junit.Before;
 import org.junit.Test;
-import products.instruments.KeyboardType;
+import products.instruments.InstrumentTypes;
 import products.instruments.PercussionType;
 
 import static org.junit.Assert.assertEquals;
@@ -13,7 +13,7 @@ public class PercussionTypeTest {
 
     @Before
     public void before(){
-        percussionType = new PercussionType("Drum Kit", "Pearl", 2570, 3099, "maple", "blue", true);
+        percussionType = new PercussionType("Drum Kit", "Pearl", 2570, 3099, "maple", "blue",  InstrumentTypes.PERCUSSION,true);
     }
 
     @Test
@@ -50,6 +50,11 @@ public class PercussionTypeTest {
     @Test
     public void canHaveAColour(){
         assertEquals("blue", percussionType.getColour());
+    }
+
+    @Test
+    public void hasInstrumentType(){
+        assertEquals(InstrumentTypes.PERCUSSION, percussionType.getType());
     }
 
     @Test

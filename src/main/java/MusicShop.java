@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class MusicShop {
 
     private String name;
-    private double till;
+    private double profit;
     private ArrayList<ISell> stock;
 
     public MusicShop(String name, double till){
         this.name = name;
-        this.till = till;
+        this.profit = profit;
         this.stock = new ArrayList<ISell>();
     }
 
@@ -18,12 +18,13 @@ public class MusicShop {
         return name;
     }
 
-    public double getTill() {
-        return till;
-    }
 
     public ArrayList<ISell> getStock() {
         return stock;
+    }
+
+    public int countStock(){
+        return this.stock.size();
     }
 
     public void addProductToStock(ISell product){
@@ -34,7 +35,7 @@ public class MusicShop {
         this.stock.remove(product);
     }
 
-    public double calculateProfits(){
+    public double calculateTotalProfits(){
         double profits = 0;
         for (ISell product :this.stock){
             profits += product.calculateMarkup();

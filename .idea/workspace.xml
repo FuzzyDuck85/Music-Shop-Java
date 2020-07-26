@@ -3,13 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="5ab0b0ac-fb2b-4462-8607-f4cba915ff9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/BrassType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/BrassType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/KeyboardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/KeyboardType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/PercussionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/PercussionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/StringsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/StringsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/WoodwindType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/WoodwindType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/instruments/BrassTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/BrassTypeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/instruments/KeyboardTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/KeyboardTypeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/instruments/PercussionTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/PercussionTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/instruments/StringsTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/StringsTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/instruments/WoodwindTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/WoodwindTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/shops/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shops/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MusicShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MusicShop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/BrassType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/BrassType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/KeyboardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/KeyboardType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/PercussionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/PercussionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/StringsType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/StringsType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/WoodwindType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/WoodwindType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/instruments/BrassTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/instruments/BrassTypeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/instruments/KeyboardTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/instruments/KeyboardTypeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/instruments/PercussionTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/instruments/PercussionTypeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,33 +75,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/products/instruments/brass" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PercussionTypeTest">
-    <configuration name="BrassTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShopTest">
+    <configuration name="All in MusicShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="instruments" />
-      <option name="MAIN_CLASS_NAME" value="instruments.BrassTypeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyboardTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="instruments" />
-      <option name="MAIN_CLASS_NAME" value="instruments.KeyboardTypeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,31 +99,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SheetMusicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="accessories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="accessories" />
-      <option name="MAIN_CLASS_NAME" value="accessories.SheetMusicTest" />
+      <option name="PACKAGE_NAME" value="shops" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringsTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accessories.*" />
+          <option name="PATTERN" value="instruments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="accessories" />
-      <option name="MAIN_CLASS_NAME" value="accessories.StringBowTest" />
+      <option name="PACKAGE_NAME" value="instruments" />
+      <option name="MAIN_CLASS_NAME" value="instruments.StringsTypeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WoodwindTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="instruments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="instruments" />
+      <option name="MAIN_CLASS_NAME" value="instruments.WoodwindTypeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="JUnit.All in MusicShop" />
+        <item itemvalue="JUnit.WoodwindTypeTest" />
         <item itemvalue="JUnit.PercussionTypeTest" />
-        <item itemvalue="JUnit.KeyboardTypeTest" />
-        <item itemvalue="JUnit.BrassTypeTest" />
-        <item itemvalue="JUnit.StringBowTest" />
-        <item itemvalue="JUnit.SheetMusicTest" />
+        <item itemvalue="JUnit.StringsTypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,22 +178,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1595608087169" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1595675026536">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1595787768540">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595675026536" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1595675026535">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595787768540" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1595787768539">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595675026535" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1595675026534">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595787768539" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1595787768539">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595675026534" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1595675026535">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595787768539" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1595787768539">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595675026535" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595787768539" />
     <state x="258" y="123" key="Maven.ArtifactSearchDialog" timestamp="1595618993345">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

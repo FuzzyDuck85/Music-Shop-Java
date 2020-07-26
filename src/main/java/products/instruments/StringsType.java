@@ -6,7 +6,7 @@ public class StringsType extends Instrument {
     private int numberOfStrings;
 
     public StringsType(String make, String manufacturer, double retailerPrice, double customerPrice, String material, String colour, InstrumentTypes instrumentType, int numberOfStrings){
-        super(make, manufacturer, retailerPrice, customerPrice, material, colour, instrumentType);
+        super(make, manufacturer, retailerPrice, customerPrice, material, colour, instrumentType.STRING);
         this.numberOfStrings = numberOfStrings;
     }
 
