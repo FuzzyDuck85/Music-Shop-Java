@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab0b0ac-fb2b-4462-8607-f4cba915ff9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/BrassType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/BrassType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/KeyboardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/KeyboardType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/PercussionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/PercussionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/StringsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/StringsType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/products/instruments/WoodwindType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/instruments/WoodwindType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/instruments/BrassTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/BrassTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/instruments/KeyboardTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/KeyboardTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/instruments/PercussionTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/PercussionTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/instruments/StringsTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/StringsTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/instruments/WoodwindTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instruments/WoodwindTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/shops/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shops/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MusicShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MusicShop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/BrassType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/BrassType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/KeyboardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/KeyboardType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/PercussionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/PercussionType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/StringsType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/StringsType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/products/instruments/WoodwindType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/products/instruments/WoodwindType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/instruments/BrassTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/instruments/BrassTypeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/instruments/KeyboardTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/instruments/KeyboardTypeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/instruments/PercussionTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/instruments/PercussionTypeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +42,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
@@ -70,16 +55,28 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java/products/accessories" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/products/instruments" />
       <recent name="$PROJECT_DIR$/src/main/java/products/instruments/brass" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest">
+  <component name="RunManager" selected="JUnit.CustomerTest">
     <configuration name="All in MusicShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,21 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="instruments" />
-      <option name="MAIN_CLASS_NAME" value="instruments.StringsTypeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WoodwindTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <extension name="coverage">
@@ -140,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest" />
         <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.All in MusicShop" />
         <item itemvalue="JUnit.WoodwindTypeTest" />
         <item itemvalue="JUnit.PercussionTypeTest" />
-        <item itemvalue="JUnit.StringsTypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +144,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#Project_Structure" timestamp="1595838470599">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1595838470599" />
     <state x="533" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1595673792559">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -178,22 +164,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1595608087169" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1595787768540">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1595839340027">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595787768540" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1595787768539">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595839340027" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1595839340027">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595787768539" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1595787768539">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595839340027" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1595839340026">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595787768539" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1595787768539">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595839340026" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1595839340027">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595787768539" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595839340027" />
     <state x="258" y="123" key="Maven.ArtifactSearchDialog" timestamp="1595618993345">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
